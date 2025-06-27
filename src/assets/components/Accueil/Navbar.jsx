@@ -158,7 +158,7 @@ const Navbar = () => {
           whileTap={{ scale: 0.95 }}
         >
           <motion.img
-            src="./public/img/logo.jpeg"
+            src="/img/logo.jpeg"
             alt="logo"
             className={`h-12 transition-all duration-500 ${
               isScrolled ? "invert opacity-80" : ""
