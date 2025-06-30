@@ -5,7 +5,6 @@ import Section from './Section';
 import Offres from './Offres';
 import BlogSection from './BlogSection';
 import FaqSection from './FaqSection';
-import Footer from './Footer';
 
 const Accueil = () => {
   return (
@@ -16,7 +15,6 @@ const Accueil = () => {
       <Offres />
       <BlogSection />
       <FaqSection />
-      <Footer />
     </>
   );
 };
